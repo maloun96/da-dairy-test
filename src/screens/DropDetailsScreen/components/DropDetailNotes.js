@@ -12,6 +12,7 @@ const DropDetailNotes = ({ message, onPress }) => {
       <Text style={styles.text}>{message}</Text>
       <Icon type="material-icon" name="edit" size={24} iconStyle={{ color: colors.primary }} />
     </TouchableOpacity>
+    
   );
 };
 
