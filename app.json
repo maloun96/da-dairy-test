@@ -1,0 +1,38 @@
+{
+  "expo": {
+    "name": "PaperRound",
+    "description": "Paper round delivery app",
+    "slug": "paperround",
+    "version": "1.0.2",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#0282A9"
+    },
+    "userInterfaceStyle": "light",
+    "updates": {
+      "enabled": true,
+      "fallbackToCacheTimeout": 10000,
+      "checkAutomatically": "ON_LOAD"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.dannikhim.paperround"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "android": {
+      "package": "com.dannikhim.paperround",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/icon.png",
+        "backgroundColor": "#0282A9"
+      }
+    }
+  }
+}
